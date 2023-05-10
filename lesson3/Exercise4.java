@@ -2,19 +2,19 @@ package lesson3; //변수
 
 import java.io.*;
 
-public class Sample5 {
+public class Exercise4 {
 
 	public static void main(String[] args) throws IOException {
 		
-		System.out.println("정수를 입력하십시오.");
+		System.out.println("원주율의 값은 얼마입니까?");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		String str = br.readLine();
 		
-		int num = Integer.parseInt(str);
+		double num = Double.parseDouble(str);
 		
-		System.out.println(num + "(이)가 입력되었습니다.");
+		System.out.println("원주율의 값은 " + num + "입니다.");
 
 	}
 

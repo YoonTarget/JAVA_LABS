@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3; //변수
 
 import java.io. *;
 
