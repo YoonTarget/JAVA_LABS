@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2; //Java의 기본
 
 public class Sample2 {
 
