@@ -1,11 +1,10 @@
 package lesson7; //배열
 
-public class Sample1 { //배열을 사용하기
+public class Sample3 { //배열의 선언과 생성을 동시에 하기
 
 	public static void main(String[] args) {
 		
-		int[] test;
-		test = new int[5];
+		int[] test = new int[5];
 		
 		test[0] = 80;
 		test[1] = 60;
@@ -14,9 +13,9 @@ public class Sample1 { //배열을 사용하기
 		test[4] = 75;
 		
 		for(int i = 0; i < 5; i++) {
-			System.out.println((i +1) + "번째 사람의 점수는 " + test[i] + "점 입니다." );
+			System.out.println((i + 1) + "번째 사람의 점수는 " + test[i] + "점 입니다.");
 		}
-		
+
 	}
 
 }

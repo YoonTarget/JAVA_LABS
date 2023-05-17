@@ -1,8 +1,8 @@
-package lesson7;
+package lesson7; //배열
 
 import java.io.*;
 
-public class Sample2 {
+public class Sample2 { //배열 요소의 개수를 입력하기
 
 	public static void main(String[] args) throws IOException {
 		
@@ -16,7 +16,7 @@ public class Sample2 {
 		int[] test;
 		test = new int[num];
 		
-		System.out.println("시험 응시자 수 만큼 점수를 입력하십시오.");
+		System.out.println("시험 응시자 수만큼 점수를 입력하십시오.");
 		
 		for(int i = 0; i < num; i++) {
 			str = br.readLine();
@@ -25,9 +25,9 @@ public class Sample2 {
 		}
 		
 		for(int i = 0; i < num; i++) {
-			System.out.println((i + 1) + "번째 사람의 점수는 " + test[i] + "입니다.");
+			System.out.println((i + 1) + "번째 사람의 점수는 " + test[i] + "점 입니다.");
 		}
-
+	
 	}
 
 }
